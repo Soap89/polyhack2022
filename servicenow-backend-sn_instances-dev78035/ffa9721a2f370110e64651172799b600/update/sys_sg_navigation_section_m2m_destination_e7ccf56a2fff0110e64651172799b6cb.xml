@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_navigation_section_m2m_destination">
+    <sys_sg_navigation_section_m2m_destination action="INSERT_OR_UPDATE">
+        <navigation_section display_value="Smart Key">e7ccf56a2fff0110e64651172799b6c9</navigation_section>
+        <navigation_section_destination display_value="Unlock the facility">57ccf56a2fff0110e64651172799b6c7</navigation_section_destination>
+        <order/>
+        <sys_class_name>sys_sg_navigation_section_m2m_destination</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-03 09:08:37</sys_created_on>
+        <sys_id>e7ccf56a2fff0110e64651172799b6cb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="SPORTIFY APP" source="x_828756_sportif_1">ffa9721a2f370110e64651172799b600</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SPORTIFY APP">ffa9721a2f370110e64651172799b600</sys_scope>
+        <sys_update_name>sys_sg_navigation_section_m2m_destination_e7ccf56a2fff0110e64651172799b6cb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-03 09:08:37</sys_updated_on>
+    </sys_sg_navigation_section_m2m_destination>
+</record_update>

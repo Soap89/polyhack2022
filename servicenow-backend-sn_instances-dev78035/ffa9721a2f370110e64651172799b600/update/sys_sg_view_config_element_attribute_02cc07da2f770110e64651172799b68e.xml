@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_view_config_element_attribute">
+    <sys_sg_view_config_element_attribute action="INSERT_OR_UPDATE">
+        <description/>
+        <name display_value="FieldValue">c2eed5c2b7321010df65f6efce11a9cf</name>
+        <sys_class_name>sys_sg_view_config_element_attribute</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-02 20:19:34</sys_created_on>
+        <sys_id>02cc07da2f770110e64651172799b68e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>c2eed5c2b7321010df65f6efce11a9cf</sys_name>
+        <sys_package display_value="SPORTIFY APP" source="x_828756_sportif_1">ffa9721a2f370110e64651172799b600</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SPORTIFY APP">ffa9721a2f370110e64651172799b600</sys_scope>
+        <sys_update_name>sys_sg_view_config_element_attribute_02cc07da2f770110e64651172799b68e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-02 20:19:34</sys_updated_on>
+        <translated_value/>
+        <value>owner</value>
+        <view_config_element display_value="owner-FieldValue">4acc07da2f770110e64651172799b68b</view_config_element>
+    </sys_sg_view_config_element_attribute>
+    <sys_translated_text action="delete_multiple" query="documentkey=02cc07da2f770110e64651172799b68e"/>
+</record_update>

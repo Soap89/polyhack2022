@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_ihub_integration_instance">
+    <sn_ihub_integration_instance action="DELETE">
+        <description>booking confirmations</description>
+        <integration_table>sys_data_source</integration_table>
+        <integration_type>data_import</integration_type>
+        <internal_name/>
+        <name>Booking Confirmations</name>
+        <record_id>014bcb5a2f770110e64651172799b6b8</record_id>
+        <sys_class_name>sn_ihub_integration_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-02 20:12:56</sys_created_on>
+        <sys_id>c94bcb5a2f770110e64651172799b6b6</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Booking Confirmations</sys_name>
+        <sys_package display_value="SPORTIFY APP" source="x_828756_sportif_1">ffa9721a2f370110e64651172799b600</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SPORTIFY APP">ffa9721a2f370110e64651172799b600</sys_scope>
+        <sys_update_name>sn_ihub_integration_instance_c94bcb5a2f770110e64651172799b6b6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-02 20:12:56</sys_updated_on>
+    </sn_ihub_integration_instance>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="SPORTIFY APP">ffa9721a2f370110e64651172799b600</application>
+        <file_path/>
+        <instance_id>12ab3d49db247740387021c40596193c</instance_id>
+        <instance_name>dev78035</instance_name>
+        <name>sn_ihub_integration_instance_c94bcb5a2f770110e64651172799b6b6</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_ihub_integration_instance"><sn_ihub_integration_instance action="INSERT_OR_UPDATE"><description>booking confirmations</description><integration_table>sys_data_source</integration_table><integration_type>data_import</integration_type><internal_name/><name>Booking Confirmations</name><record_id>014bcb5a2f770110e64651172799b6b8</record_id><sys_class_name>sn_ihub_integration_instance</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-06-02 20:12:56</sys_created_on><sys_id>c94bcb5a2f770110e64651172799b6b6</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Booking Confirmations</sys_name><sys_package display_value="SPORTIFY APP" source="x_828756_sportif_1">ffa9721a2f370110e64651172799b600</sys_package><sys_policy/><sys_scope display_value="SPORTIFY APP">ffa9721a2f370110e64651172799b600</sys_scope><sys_update_name>sn_ihub_integration_instance_c94bcb5a2f770110e64651172799b6b6</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-06-02 20:12:56</sys_updated_on></sn_ihub_integration_instance></record_update>]]></payload>
+        <payload_hash>-1811627795</payload_hash>
+        <record_name>Booking Confirmations</record_name>
+        <reverted_from/>
+        <source>f7a9721a2f370110e64651172799b602</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-02 20:12:57</sys_created_on>
+        <sys_id>494bcb5a2f770110e64651172799b6c0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>181260cb92a0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-02 20:12:57</sys_updated_on>
+        <type>Data import</type>
+        <update_guid>814bcb5abb770110054c96c77714c5c0</update_guid>
+        <update_guid_history>814bcb5abb770110054c96c77714c5c0:-1811627795</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Booking Confirmations">5a6bcb5a2f770110e64651172799b6fb</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-02 20:13:34</sys_created_on>
+        <sys_db_object display_value="" name="sn_ihub_integration_instance">sn_ihub_integration_instance</sys_db_object>
+        <sys_id>01c24a62b0474eb98040c06a37ad82f1</sys_id>
+        <sys_metadata>c94bcb5a2f770110e64651172799b6b6</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Booking Confirmations</sys_name>
+        <sys_package display_value="SPORTIFY APP" source="x_828756_sportif_1">ffa9721a2f370110e64651172799b600</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="SPORTIFY APP">ffa9721a2f370110e64651172799b600</sys_scope>
+        <sys_scope_delete display_value="">59f5691434e544bcb16172d5e9b32d09</sys_scope_delete>
+        <sys_update_name>sn_ihub_integration_instance_c94bcb5a2f770110e64651172799b6b6</sys_update_name>
+        <sys_update_version display_value="sn_ihub_integration_instance_c94bcb5a2f770110e64651172799b6b6">494bcb5a2f770110e64651172799b6c0</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-02 20:13:34</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

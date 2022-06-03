@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="DELETE">
+        <sc_cat_item display_value="Add sport facility to Database">b4ffb69e2f370110e64651172799b63b</sc_cat_item>
+        <sc_category display_value="Services">109f0438c6112276003ae8ac13e7009d</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-02 19:27:57</sys_created_on>
+        <sys_id>c2f00bde2f370110e64651172799b63c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Services.Add sport facility to Database</sys_name>
+        <sys_package display_value="SPORTIFY APP" source="x_828756_sportif_1">ffa9721a2f370110e64651172799b600</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SPORTIFY APP">ffa9721a2f370110e64651172799b600</sys_scope>
+        <sys_update_name>sc_cat_item_category_c2f00bde2f370110e64651172799b63c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-02 19:27:57</sys_updated_on>
+    </sc_cat_item_category>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="SPORTIFY APP">ffa9721a2f370110e64651172799b600</application>
+        <file_path/>
+        <instance_id>12ab3d49db247740387021c40596193c</instance_id>
+        <instance_name>dev78035</instance_name>
+        <name>sc_cat_item_category_c2f00bde2f370110e64651172799b63c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category"><sc_cat_item_category action="INSERT_OR_UPDATE"><sc_cat_item display_value="Add sport facility to Database">b4ffb69e2f370110e64651172799b63b</sc_cat_item><sc_category display_value="Services">109f0438c6112276003ae8ac13e7009d</sc_category><sys_class_name>sc_cat_item_category</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-06-02 19:27:57</sys_created_on><sys_id>c2f00bde2f370110e64651172799b63c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Services.Add sport facility to Database</sys_name><sys_package display_value="SPORTIFY APP" source="x_828756_sportif_1">ffa9721a2f370110e64651172799b600</sys_package><sys_policy/><sys_scope display_value="SPORTIFY APP">ffa9721a2f370110e64651172799b600</sys_scope><sys_update_name>sc_cat_item_category_c2f00bde2f370110e64651172799b63c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-06-02 19:27:57</sys_updated_on></sc_cat_item_category></record_update>]]></payload>
+        <payload_hash>-506119207</payload_hash>
+        <record_name>Services.Add sport facility to Database</record_name>
+        <reverted_from/>
+        <source>f7a9721a2f370110e64651172799b602</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-02 19:27:57</sys_created_on>
+        <sys_id>42f00bde2f370110e64651172799b647</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18125e388d60000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-02 19:27:57</sys_updated_on>
+        <type>Catalog Item Category</type>
+        <update_guid>c6f00bde463701107b7591f3bddd9446</update_guid>
+        <update_guid_history>c6f00bde463701107b7591f3bddd9446:-506119207</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Services.Add sport facility to Database">ec118bde2f370110e64651172799b695</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-02 19:28:23</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_category">sc_cat_item_category</sys_db_object>
+        <sys_id>61ea7d05013647b7aaaea0a97767cd99</sys_id>
+        <sys_metadata>c2f00bde2f370110e64651172799b63c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Services.Add sport facility to Database</sys_name>
+        <sys_package display_value="SPORTIFY APP" source="x_828756_sportif_1">ffa9721a2f370110e64651172799b600</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="SPORTIFY APP">ffa9721a2f370110e64651172799b600</sys_scope>
+        <sys_scope_delete display_value="">59f5691434e544bcb16172d5e9b32d09</sys_scope_delete>
+        <sys_update_name>sc_cat_item_category_c2f00bde2f370110e64651172799b63c</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_category_c2f00bde2f370110e64651172799b63c">42f00bde2f370110e64651172799b647</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-02 19:28:23</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

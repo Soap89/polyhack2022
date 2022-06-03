@@ -1,0 +1,929 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build/>
+        <copied_from>3e5538b40f112010157b31ef68767e8f</copied_from>
+        <copied_from_name>Flow Template: Create an approva</copied_from_name>
+        <description/>
+        <internal_name>approval_workflow</internal_name>
+        <label_cache>[{"name":"Service Catalog_1.request_item","label":"Trigger➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","attributes":{"default_search_field":"number"}},{"name":"Service Catalog_1.request_item.price","label":"Trigger➛Requested Item Record➛Price","reference":"","reference_display":"Price","type":"currency","base_type":"currency","parent_table_name":"sc_req_item","column_name":"price"},{"name":"d9557edf-8362-4b28-9bad-1862cef8068e.approval_state","label":"3➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>Approval Workflow</name>
+        <natlang/>
+        <outputs/>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-02 20:37:53</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>6ef05fde2f770110e64651172799b6b5</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Approval Workflow</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="SPORTIFY APP" source="x_828756_sportif_1">ffa9721a2f370110e64651172799b600</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SPORTIFY APP">ffa9721a2f370110e64651172799b600</sys_scope>
+        <sys_update_name>sys_hub_flow_6ef05fde2f770110e64651172799b6b5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-02 20:37:56</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=6ef05fde2f770110e64651172799b6b5"/>
+    <sys_variable_value action="delete_multiple" query="document_key=6ef05fde2f770110e64651172799b6b5"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=6ef05fde2f770110e64651172799b6b5^sys_idNOT IN0bf09fde2f770110e64651172799b62c"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment>Waits for an item to be requested.</comment>
+        <display_text/>
+        <flow display_value="Approval Workflow">6ef05fde2f770110e64651172799b6b5</flow>
+        <name>Service Catalog</name>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-02 20:37:56</sys_created_on>
+        <sys_id>0bf09fde2f770110e64651172799b62c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-02 20:37:56</sys_updated_on>
+        <trigger_definition display_value="Service Catalog">c43a1011c36813002841b63b12d3ae15</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>service_catalog</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=0bf09fde2f770110e64651172799b62c"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=6ef05fde2f770110e64651172799b6b5^sys_idNOT IN47f09fde2f770110e64651172799b63b,4bf09fde2f770110e64651172799b63b,c3f09fde2f770110e64651172799b63b,c7f09fde2f770110e64651172799b63b,cbf09fde2f770110e64651172799b63a"/>
+    <sys_hub_flow_stage action="INSERT_OR_UPDATE">
+        <always_show>true</always_show>
+        <ancestor_array_position>0</ancestor_array_position>
+        <ancestor_component_id/>
+        <ancestor_stage_id/>
+        <ancestral_if_else_logic/>
+        <component_indexes>6</component_indexes>
+        <duration>1970-01-02 00:00:00</duration>
+        <flow display_value="Approval Workflow">6ef05fde2f770110e64651172799b6b5</flow>
+        <label>Fulfillment</label>
+        <order>3</order>
+        <stage_id>d6044151-fa4b-4ae6-be8e-f814db166d0a</stage_id>
+        <states>{"pending":"Pending - has not started","in_progress":"In progress","skipped":"Skipped","complete":"Completed","error":"Error"}</states>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-02 20:37:56</sys_created_on>
+        <sys_id>47f09fde2f770110e64651172799b63b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-02 20:37:56</sys_updated_on>
+        <type>standard</type>
+        <value>Fulfillment</value>
+    </sys_hub_flow_stage>
+    <sys_hub_flow_stage action="INSERT_OR_UPDATE">
+        <always_show>true</always_show>
+        <ancestor_array_position>0</ancestor_array_position>
+        <ancestor_component_id/>
+        <ancestor_stage_id/>
+        <ancestral_if_else_logic/>
+        <component_indexes>1</component_indexes>
+        <duration>1970-01-02 00:00:00</duration>
+        <flow display_value="Approval Workflow">6ef05fde2f770110e64651172799b6b5</flow>
+        <label>Waiting for approval</label>
+        <order>0</order>
+        <stage_id>195c661a-1d2c-491b-9895-58c930498d43</stage_id>
+        <states>{"pending":"Pending - has not started","in_progress":"In progress","skipped":"Skipped","complete":"Completed","error":"Error"}</states>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-02 20:37:56</sys_created_on>
+        <sys_id>4bf09fde2f770110e64651172799b63b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-02 20:37:56</sys_updated_on>
+        <type>standard</type>
+        <value>Waiting for approval</value>
+    </sys_hub_flow_stage>
+    <sys_hub_flow_stage action="INSERT_OR_UPDATE">
+        <always_show>true</always_show>
+        <ancestor_array_position>0</ancestor_array_position>
+        <ancestor_component_id/>
+        <ancestor_stage_id/>
+        <ancestral_if_else_logic/>
+        <component_indexes>7</component_indexes>
+        <duration>1970-01-01 00:00:00</duration>
+        <flow display_value="Approval Workflow">6ef05fde2f770110e64651172799b6b5</flow>
+        <label>Completed</label>
+        <order>4</order>
+        <stage_id>d634c366-555d-4813-8cf7-86a0d096d268</stage_id>
+        <states>{"pending":"Pending - has not started","in_progress":"In progress","skipped":"Skipped","complete":"Completed","error":"Error"}</states>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-02 20:37:56</sys_created_on>
+        <sys_id>c3f09fde2f770110e64651172799b63b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-02 20:37:56</sys_updated_on>
+        <type>standard</type>
+        <value>Completed</value>
+    </sys_hub_flow_stage>
+    <sys_hub_flow_stage action="INSERT_OR_UPDATE">
+        <always_show>true</always_show>
+        <ancestor_array_position>0</ancestor_array_position>
+        <ancestor_component_id/>
+        <ancestor_stage_id/>
+        <ancestral_if_else_logic/>
+        <component_indexes>4</component_indexes>
+        <duration>1970-01-01 00:00:00</duration>
+        <flow display_value="Approval Workflow">6ef05fde2f770110e64651172799b6b5</flow>
+        <label>Request cancelled</label>
+        <order>1</order>
+        <stage_id>ee1d0961-a0ef-4d6a-b055-26cdb6afbb25</stage_id>
+        <states>{"pending":"Pending - has not started","in_progress":"In progress","skipped":"Skipped","complete":"Completed","error":"Error"}</states>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-02 20:37:56</sys_created_on>
+        <sys_id>c7f09fde2f770110e64651172799b63b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-02 20:37:56</sys_updated_on>
+        <type>standard</type>
+        <value>Request cancelled</value>
+    </sys_hub_flow_stage>
+    <sys_hub_flow_stage action="INSERT_OR_UPDATE">
+        <always_show>true</always_show>
+        <ancestor_array_position>0</ancestor_array_position>
+        <ancestor_component_id/>
+        <ancestor_stage_id/>
+        <ancestral_if_else_logic/>
+        <component_indexes>5</component_indexes>
+        <duration>1970-01-01 00:00:00</duration>
+        <flow display_value="Approval Workflow">6ef05fde2f770110e64651172799b6b5</flow>
+        <label>Request approved</label>
+        <order>2</order>
+        <stage_id>f4f92a7c-4bab-4cea-9623-7e353752a81d</stage_id>
+        <states>{"pending":"Pending - has not started","in_progress":"In progress","skipped":"Skipped","complete":"Completed","error":"Error"}</states>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-02 20:37:56</sys_created_on>
+        <sys_id>cbf09fde2f770110e64651172799b63a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-02 20:37:56</sys_updated_on>
+        <type>standard</type>
+        <value>Request approved</value>
+    </sys_hub_flow_stage>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=6ef05fde2f770110e64651172799b6b5^sys_idNOT IN2ef05fde2f770110e64651172799b6b7"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>6ef05fde2f770110e64651172799b6b5</id>
+        <name>Approval Workflow</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-02 20:37:53</sys_created_on>
+        <sys_id>2ef05fde2f770110e64651172799b6b7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-02 20:37:53</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=2ef05fde2f770110e64651172799b6b7"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=6ef05fde2f770110e64651172799b6b5^sys_idNOT IN66f05fde2f770110e64651172799b6c6,eaf05fde2f770110e64651172799b6bf"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>sc_req_item</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Approval Workflow">6ef05fde2f770110e64651172799b6b5</model>
+        <model_id>6ef05fde2f770110e64651172799b6b5</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_6ef05fde2f770110e64651172799b6b5</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>true</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-02 20:37:54</sys_created_on>
+        <sys_id>66f05fde2f770110e64651172799b6c6</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="SPORTIFY APP">ffa9721a2f370110e64651172799b600</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-02 20:37:54</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>default_search_field=number,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>request_item</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>Request Item</label>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Approval Workflow">6ef05fde2f770110e64651172799b6b5</model>
+        <model_id>6ef05fde2f770110e64651172799b6b5</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_6ef05fde2f770110e64651172799b6b5</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="sc_req_item">sc_req_item</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-02 20:37:54</sys_created_on>
+        <sys_id>eaf05fde2f770110e64651172799b6bf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="SPORTIFY APP">ffa9721a2f370110e64651172799b600</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-02 20:37:54</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_output action="delete_multiple" query="model=6ef05fde2f770110e64651172799b6b5"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=6ef05fde2f770110e64651172799b6b5"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=6ef05fde2f770110e64651172799b6b5^sys_idNOT IN47f09fde2f770110e64651172799b609,4bf09fde2f770110e64651172799b62b,7ef05fde2f770110e64651172799b6fb,8ff09fde2f770110e64651172799b626,b2f09fde2f770110e64651172799b604,baf05fde2f770110e64651172799b6f3"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Log">5bc1bcc6531003003bf1d9109ec587d4</action_type>
+        <action_type_parent display_value="Log">0e0ae8c2531003003bf1d9109ec587c8</action_type_parent>
+        <comment>Add your own Actions for approved request</comment>
+        <compiled_snapshot>5bc1bcc6531003003bf1d9109ec587d4</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Approval Workflow">6ef05fde2f770110e64651172799b6b5</flow>
+        <order>6</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-02 20:37:55</sys_created_on>
+        <sys_id>47f09fde2f770110e64651172799b609</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="SPORTIFY APP">ffa9721a2f370110e64651172799b600</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-02 20:37:55</sys_updated_on>
+        <ui_id>31f0448d-dd5d-40c5-ab4b-3fe2b0eaca2d</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=47f09fde2f770110e64651172799b609"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>47f09fde2f770110e64651172799b609</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-02 20:37:55</sys_created_on>
+        <sys_id>07f09fde2f770110e64651172799b623</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-02 20:37:55</sys_updated_on>
+        <value>Approved</value>
+        <variable display_value="Message">23c1bcc6531003003bf1d9109ec587e5</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_input_5bc1bcc6531003003bf1d9109ec587d4^id=47f09fde2f770110e64651172799b609"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=47f09fde2f770110e64651172799b609"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=47f09fde2f770110e64651172799b609"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Log">5bc1bcc6531003003bf1d9109ec587d4</action_type>
+        <action_type_parent display_value="Log">0e0ae8c2531003003bf1d9109ec587c8</action_type_parent>
+        <comment>Add your own Actions that occur when the request is completed</comment>
+        <compiled_snapshot>5bc1bcc6531003003bf1d9109ec587d4</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Approval Workflow">6ef05fde2f770110e64651172799b6b5</flow>
+        <order>8</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-02 20:37:56</sys_created_on>
+        <sys_id>4bf09fde2f770110e64651172799b62b</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="SPORTIFY APP">ffa9721a2f370110e64651172799b600</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-02 20:37:56</sys_updated_on>
+        <ui_id>71c11297-1442-495b-8347-e3c2de4f95cd</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=4bf09fde2f770110e64651172799b62b"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_input_5bc1bcc6531003003bf1d9109ec587d4^id=4bf09fde2f770110e64651172799b62b"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=4bf09fde2f770110e64651172799b62b"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=4bf09fde2f770110e64651172799b62b"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Ask For Approval">f8f2e9920b10030085c083eb37673abd</action_type>
+        <action_type_parent display_value="Ask For Approval">bae0a1120b10030085c083eb37673a92</action_type_parent>
+        <comment>Ask the requester's Manager for approval</comment>
+        <compiled_snapshot>f8f2e9920b10030085c083eb37673abd</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Approval Workflow">6ef05fde2f770110e64651172799b6b5</flow>
+        <order>3</order>
+        <parent_ui_id>747207aa-3f7d-4cd3-89ae-6165526f373c</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-02 20:37:55</sys_created_on>
+        <sys_id>7ef05fde2f770110e64651172799b6fb</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="SPORTIFY APP">ffa9721a2f370110e64651172799b600</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-02 20:37:55</sys_updated_on>
+        <ui_id>d9557edf-8362-4b28-9bad-1862cef8068e</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=7ef05fde2f770110e64651172799b6fb"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>7ef05fde2f770110e64651172799b6fb</document_key>
+        <order>4</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-02 20:37:55</sys_created_on>
+        <sys_id>36f05fde2f770110e64651172799b6ff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-02 20:37:55</sys_updated_on>
+        <value>ApprovesRejectsAny</value>
+        <variable display_value="Approval Conditions">45f2e9920b10030085c083eb37673aee</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>7ef05fde2f770110e64651172799b6fb</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-02 20:37:55</sys_created_on>
+        <sys_id>72f05fde2f770110e64651172799b6ff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-02 20:37:55</sys_updated_on>
+        <value/>
+        <variable display_value="Due Date">c5f2e9920b10030085c083eb37673af9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>7ef05fde2f770110e64651172799b6fb</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-02 20:37:55</sys_created_on>
+        <sys_id>bef05fde2f770110e64651172799b6fe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-02 20:37:55</sys_updated_on>
+        <value>approval_history</value>
+        <variable display_value="Journal Field">c1f2e9920b10030085c083eb37673ae3</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>7ef05fde2f770110e64651172799b6fb</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-02 20:37:55</sys_created_on>
+        <sys_id>f6f05fde2f770110e64651172799b6ff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-02 20:37:55</sys_updated_on>
+        <value>sc_req_item</value>
+        <variable display_value="Table">bcf2e9920b10030085c083eb37673acc</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>7ef05fde2f770110e64651172799b6fb</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-02 20:37:55</sys_created_on>
+        <sys_id>faf05fde2f770110e64651172799b6fe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-02 20:37:55</sys_updated_on>
+        <value>approval</value>
+        <variable display_value="Approval Field">01f2e9920b10030085c083eb37673ad8</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=7ef05fde2f770110e64651172799b6fb"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>approval_conditions</field>
+        <id>7ef05fde2f770110e64651172799b6fb</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-02 20:37:55</sys_created_on>
+        <sys_id>b6f05fde2f770110e64651172799b6fe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-02 20:37:55</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>approval_field</field>
+        <id>7ef05fde2f770110e64651172799b6fb</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-02 20:37:55</sys_created_on>
+        <sys_id>baf05fde2f770110e64651172799b6fd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-02 20:37:55</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>due_date</field>
+        <id>7ef05fde2f770110e64651172799b6fb</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-02 20:37:55</sys_created_on>
+        <sys_id>f2f05fde2f770110e64651172799b6fe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-02 20:37:55</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value>{"action":"none","date_type":"actual","date":"{{}}","duration":1,"duration_type":"days","schedule":"","schedule_label":""}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>journal_field</field>
+        <id>7ef05fde2f770110e64651172799b6fb</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-02 20:37:55</sys_created_on>
+        <sys_id>7ef05fde2f770110e64651172799b6fd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-02 20:37:55</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>7ef05fde2f770110e64651172799b6fb</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-02 20:37:55</sys_created_on>
+        <sys_id>32f05fde2f770110e64651172799b6fe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-02 20:37:55</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value>{{Service Catalog_1.request_item}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>7ef05fde2f770110e64651172799b6fb</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-02 20:37:55</sys_created_on>
+        <sys_id>7af05fde2f770110e64651172799b6fe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-02 20:37:55</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=7ef05fde2f770110e64651172799b6fb"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=7ef05fde2f770110e64651172799b6fb"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Log">5bc1bcc6531003003bf1d9109ec587d4</action_type>
+        <action_type_parent display_value="Log">0e0ae8c2531003003bf1d9109ec587c8</action_type_parent>
+        <comment>Add your own Actions to occur when the Request is complete</comment>
+        <compiled_snapshot>5bc1bcc6531003003bf1d9109ec587d4</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Approval Workflow">6ef05fde2f770110e64651172799b6b5</flow>
+        <order>7</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-02 20:37:55</sys_created_on>
+        <sys_id>8ff09fde2f770110e64651172799b626</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="SPORTIFY APP">ffa9721a2f370110e64651172799b600</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-02 20:37:55</sys_updated_on>
+        <ui_id>3cfe5300-826f-45ea-82ea-90461635c1c9</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=8ff09fde2f770110e64651172799b626"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>8ff09fde2f770110e64651172799b626</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-02 20:37:55</sys_created_on>
+        <sys_id>cff09fde2f770110e64651172799b627</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-02 20:37:55</sys_updated_on>
+        <value>done</value>
+        <variable display_value="Message">23c1bcc6531003003bf1d9109ec587e5</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_input_5bc1bcc6531003003bf1d9109ec587d4^id=8ff09fde2f770110e64651172799b626"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=8ff09fde2f770110e64651172799b626"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=8ff09fde2f770110e64651172799b626"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Log">5bc1bcc6531003003bf1d9109ec587d4</action_type>
+        <action_type_parent display_value="Log">0e0ae8c2531003003bf1d9109ec587c8</action_type_parent>
+        <comment>Add your own Actions for a declined request</comment>
+        <compiled_snapshot>5bc1bcc6531003003bf1d9109ec587d4</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Approval Workflow">6ef05fde2f770110e64651172799b6b5</flow>
+        <order>5</order>
+        <parent_ui_id>cea77095-25a8-4c7e-99b9-d06ffef8e5fd</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-02 20:37:55</sys_created_on>
+        <sys_id>b2f09fde2f770110e64651172799b604</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="SPORTIFY APP">ffa9721a2f370110e64651172799b600</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-02 20:37:55</sys_updated_on>
+        <ui_id>ecd7ad6f-bb45-4a68-af63-2f58826c247a</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=b2f09fde2f770110e64651172799b604"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>b2f09fde2f770110e64651172799b604</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-02 20:37:55</sys_created_on>
+        <sys_id>4bf09fde2f770110e64651172799b605</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-02 20:37:55</sys_updated_on>
+        <value>Item is not approved</value>
+        <variable display_value="Message">23c1bcc6531003003bf1d9109ec587e5</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_input_5bc1bcc6531003003bf1d9109ec587d4^id=b2f09fde2f770110e64651172799b604"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=b2f09fde2f770110e64651172799b604"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=b2f09fde2f770110e64651172799b604"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Get Catalog Variables">330ba3abc31013002841b63b12d3aee8</action_type>
+        <action_type_parent display_value="Get Catalog Variables">22f0b88cc3c632002841b63b12d3aeff</action_type_parent>
+        <comment>Select the catalog item and variables to use in your flow</comment>
+        <compiled_snapshot>330ba3abc31013002841b63b12d3aee8</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Approval Workflow">6ef05fde2f770110e64651172799b6b5</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-02 20:37:55</sys_created_on>
+        <sys_id>baf05fde2f770110e64651172799b6f3</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="SPORTIFY APP">ffa9721a2f370110e64651172799b600</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-02 20:37:58</sys_updated_on>
+        <ui_id>cb52581a-689d-4795-b62c-1fbd871bbdcb</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=baf05fde2f770110e64651172799b6f3"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>baf05fde2f770110e64651172799b6f3</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-02 20:37:55</sys_created_on>
+        <sys_id>baf05fde2f770110e64651172799b6f5</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-02 20:37:58</sys_updated_on>
+        <value>35af729e2f370110e64651172799b614</value>
+        <variable display_value="Template Catalog Items and Variable Sets">bb0ba3abc31013002841b63b12d3aef1</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=baf05fde2f770110e64651172799b6f3"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>requested_item</field>
+        <id>baf05fde2f770110e64651172799b6f3</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-02 20:37:55</sys_created_on>
+        <sys_id>3af05fde2f770110e64651172799b6f5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-02 20:37:55</sys_updated_on>
+        <table>var__m_sys_hub_action_input_330ba3abc31013002841b63b12d3aee8</table>
+        <value>{{Service Catalog_1.request_item}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>template_catalog_item</field>
+        <id>baf05fde2f770110e64651172799b6f3</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-02 20:37:55</sys_created_on>
+        <sys_id>76f05fde2f770110e64651172799b6f5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-02 20:37:55</sys_updated_on>
+        <table>var__m_sys_hub_action_input_330ba3abc31013002841b63b12d3aee8</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=baf05fde2f770110e64651172799b6f3"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=baf05fde2f770110e64651172799b6f3"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=6ef05fde2f770110e64651172799b6b5"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=6ef05fde2f770110e64651172799b6b5^sys_idNOT IN3ef05fde2f770110e64651172799b6df,76f05fde2f770110e64651172799b6da"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">f6f05fde2f770110e64651172799b6df</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Approval Workflow">6ef05fde2f770110e64651172799b6b5</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>4</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>747207aa-3f7d-4cd3-89ae-6165526f373c</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-02 20:37:54</sys_created_on>
+        <sys_id>3ef05fde2f770110e64651172799b6df</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-02 20:37:55</sys_updated_on>
+        <ui_id>cea77095-25a8-4c7e-99b9-d06ffef8e5fd</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=3ef05fde2f770110e64651172799b6df"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>3ef05fde2f770110e64651172799b6df</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-02 20:37:55</sys_created_on>
+        <sys_id>baf05fde2f770110e64651172799b6e2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-02 20:37:55</sys_updated_on>
+        <value>if not approved</value>
+        <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea3</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=3ef05fde2f770110e64651172799b6df"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>3ef05fde2f770110e64651172799b6df</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-02 20:37:55</sys_created_on>
+        <sys_id>3af05fde2f770110e64651172799b6e2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-02 20:37:55</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{d9557edf-8362-4b28-9bad-1862cef8068e.approval_state}}!=approved</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition_name</field>
+        <id>3ef05fde2f770110e64651172799b6df</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-02 20:37:55</sys_created_on>
+        <sys_id>76f05fde2f770110e64651172799b6e2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-02 20:37:55</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=3ef05fde2f770110e64651172799b6df"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=3ef05fde2f770110e64651172799b6df"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">baf05fde2f770110e64651172799b6d9</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Approval Workflow">6ef05fde2f770110e64651172799b6b5</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-02 20:37:54</sys_created_on>
+        <sys_id>76f05fde2f770110e64651172799b6da</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-02 20:37:59</sys_updated_on>
+        <ui_id>747207aa-3f7d-4cd3-89ae-6165526f373c</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=76f05fde2f770110e64651172799b6da"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>76f05fde2f770110e64651172799b6da</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-02 20:37:54</sys_created_on>
+        <sys_id>7af05fde2f770110e64651172799b6de</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-02 20:37:59</sys_updated_on>
+        <value>Price is over $30</value>
+        <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea3</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=76f05fde2f770110e64651172799b6da"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>76f05fde2f770110e64651172799b6da</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-02 20:37:54</sys_created_on>
+        <sys_id>f6f05fde2f770110e64651172799b6de</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-02 20:37:59</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{Service Catalog_1.request_item.price}}&gt;30</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition_name</field>
+        <id>76f05fde2f770110e64651172799b6da</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-02 20:37:54</sys_created_on>
+        <sys_id>bef05fde2f770110e64651172799b6dd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-02 20:37:54</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=76f05fde2f770110e64651172799b6da"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=76f05fde2f770110e64651172799b6da"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=6ef05fde2f770110e64651172799b6b5"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=6ef05fde2f770110e64651172799b6b5"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_6ef05fde2f770110e64651172799b6b5^sys_idNOT INe2f05fde2f770110e64651172799b6c5,fef05fde2f770110e64651172799b6ca"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>request_item</element>
+        <help/>
+        <hint/>
+        <label>Request Item</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_6ef05fde2f770110e64651172799b6b5</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-02 20:37:54</sys_created_on>
+        <sys_id>e2f05fde2f770110e64651172799b6c5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="SPORTIFY APP" source="x_828756_sportif_1">ffa9721a2f370110e64651172799b600</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SPORTIFY APP">ffa9721a2f370110e64651172799b600</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-02 20:37:54</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_6ef05fde2f770110e64651172799b6b5</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-02 20:37:54</sys_created_on>
+        <sys_id>fef05fde2f770110e64651172799b6ca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="SPORTIFY APP" source="x_828756_sportif_1">ffa9721a2f370110e64651172799b600</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SPORTIFY APP">ffa9721a2f370110e64651172799b600</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-02 20:37:54</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_6ef05fde2f770110e64651172799b6b5"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_6ef05fde2f770110e64651172799b6b5"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_6ef05fde2f770110e64651172799b6b5"/>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=6ef05fde2f770110e64651172799b6b5"/>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=6ef05fde2f770110e64651172799b6b5"/>
+</record_update>

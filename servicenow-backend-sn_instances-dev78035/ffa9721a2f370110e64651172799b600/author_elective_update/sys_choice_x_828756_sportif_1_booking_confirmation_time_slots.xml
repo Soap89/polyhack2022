@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="time_slots" table="x_828756_sportif_1_booking_confirmation" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>time_slots</element>
+            <name>x_828756_sportif_1_booking_confirmation</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-06-02 20:17:08</sys_created_on>
+            <sys_id>223c0f9a2f770110e64651172799b69c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>time_slots</sys_name>
+            <sys_package display_value="SPORTIFY APP" source="x_828756_sportif_1">ffa9721a2f370110e64651172799b600</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="SPORTIFY APP">ffa9721a2f370110e64651172799b600</sys_scope>
+            <sys_update_name>sys_choice_x_828756_sportif_1_booking_confirmation_time_slots</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-06-02 20:17:08</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>time_slots</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>8:00-9:00</label>
+            <language>en</language>
+            <name>x_828756_sportif_1_booking_confirmation</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-06-02 20:17:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ea3c0f9a2f770110e64651172799b69b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-06-02 20:17:08</sys_updated_on>
+            <value>8-9</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>time_slots</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>9:00-10:00</label>
+            <language>en</language>
+            <name>x_828756_sportif_1_booking_confirmation</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-06-02 20:17:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ae3c0f9a2f770110e64651172799b69c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-06-02 20:17:08</sys_updated_on>
+            <value>9-10</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>time_slots</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>10:00-11:00</label>
+            <language>en</language>
+            <name>x_828756_sportif_1_booking_confirmation</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-06-02 20:17:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ae3c0f9a2f770110e64651172799b69d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-06-02 20:17:08</sys_updated_on>
+            <value>10-11</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>time_slots</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>11:00-12:00</label>
+            <language>en</language>
+            <name>x_828756_sportif_1_booking_confirmation</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-06-02 20:17:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ae3c0f9a2f770110e64651172799b69e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-06-02 20:17:08</sys_updated_on>
+            <value>11-12</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>time_slots</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>17:00-18:00</label>
+            <language>en</language>
+            <name>x_828756_sportif_1_booking_confirmation</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-06-02 20:17:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ae3c0f9a2f770110e64651172799b69f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-06-02 20:17:08</sys_updated_on>
+            <value>17-18</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>time_slots</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>18:00-19:00</label>
+            <language>en</language>
+            <name>x_828756_sportif_1_booking_confirmation</name>
+            <sequence>5</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-06-02 20:17:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ae3c0f9a2f770110e64651172799b6a0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-06-02 20:17:08</sys_updated_on>
+            <value>18-19</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

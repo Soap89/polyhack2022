@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Facilities Database" max_length="40" name="x_828756_sportif_1_facilities_database" sizeclass="5" type="collection">
+        <element choice="1" label="Availability Days" max_length="40" name="availability_days" type="glide_list">
+            <choice>
+                <element inactive_on_update="false" label="Mo" sequence="0" value="mo"/>
+                <element inactive_on_update="false" label="Tu" sequence="1" value="tu"/>
+                <element inactive_on_update="false" label="Wed" sequence="2" value="wed"/>
+                <element inactive_on_update="false" label="Th" sequence="3" value="th"/>
+                <element inactive_on_update="false" label="Fr" sequence="4" value="fr"/>
+                <element inactive_on_update="false" label="Sa" sequence="5" value="sa"/>
+                <element inactive_on_update="false" label="Su" sequence="6" value="su"/>
+            </choice>
+        </element>
+        <element label="Facility Name" max_length="40" name="facility_name" type="string"/>
+        <element display="true" label="Image" max_length="40" name="image" type="user_image"/>
+        <element label="Location" max_length="32" name="location" reference="cmn_location" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Owner" max_length="32" name="owner" reference="sys_user" type="reference"/>
+        <element choice="1" label="Sport Type" max_length="40" name="sport_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Tennis" sequence="0" value="tennis"/>
+                <element inactive_on_update="false" label="Football" sequence="1" value="football"/>
+            </choice>
+        </element>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element choice="1" label="Time Slots" max_length="40" name="time_slots" type="glide_list">
+            <choice>
+                <element inactive_on_update="false" label="8:00-9:00" sequence="0" value="8-9"/>
+                <element inactive_on_update="false" label="9:00-10:00" sequence="1" value="9-10"/>
+                <element inactive_on_update="false" label="10:00-11:00" sequence="2" value="10-11"/>
+                <element inactive_on_update="false" label="11:00-12:00" sequence="3" value="11-12"/>
+                <element inactive_on_update="false" label="17:00-18:00" sequence="4" value="17-18"/>
+                <element inactive_on_update="false" label="18:00-19:00" sequence="5" value="18-19"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="owner"/>
+        </index>
+        <index name="index2">
+            <element name="location"/>
+        </index>
+        <index name="index3">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

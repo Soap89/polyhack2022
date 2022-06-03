@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_navigation_section_destination_applet_launcher">
+    <sys_sg_navigation_section_destination_applet_launcher action="INSERT_OR_UPDATE">
+        <applet_launcher display_value="">db5cb52a2fff0110e64651172799b6bd</applet_launcher>
+        <background_color/>
+        <foreground_color/>
+        <icon display_value="icon-Check-Circle">3ecc87da2f770110e64651172799b621</icon>
+        <image/>
+        <name>Unlock the facility</name>
+        <sys_class_name>sys_sg_navigation_section_destination_applet_launcher</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-03 09:06:42</sys_created_on>
+        <sys_id>535cb52a2fff0110e64651172799b6c0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Unlock the facility</sys_name>
+        <sys_package display_value="SPORTIFY APP" source="x_828756_sportif_1">ffa9721a2f370110e64651172799b600</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SPORTIFY APP">ffa9721a2f370110e64651172799b600</sys_scope>
+        <sys_update_name>sys_sg_navigation_section_destination_applet_launcher_535cb52a2fff0110e64651172799b6c0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-03 09:06:42</sys_updated_on>
+    </sys_sg_navigation_section_destination_applet_launcher>
+</record_update>

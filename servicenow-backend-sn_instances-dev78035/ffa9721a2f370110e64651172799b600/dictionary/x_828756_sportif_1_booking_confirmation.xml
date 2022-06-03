@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="x_828756_sportif_1_facilities_database" label="Booking Confirmation" max_length="40" name="x_828756_sportif_1_booking_confirmation" sizeclass="2" type="collection">
+        <element choice="1" display="true" label="Status" mandatory="true" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Approved" sequence="0" value="approved"/>
+                <element inactive_on_update="false" label="Rejected" sequence="1" value="rejected"/>
+            </choice>
+        </element>
+    </element>
+</database>

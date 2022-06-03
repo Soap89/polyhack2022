@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="availability_days" label="Availability Days" language="en" table="x_828756_sportif_1_facilities_database">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>availability_days</element>
+            <help/>
+            <hint/>
+            <label>Availability Days</label>
+            <language>en</language>
+            <name>x_828756_sportif_1_facilities_database</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-06-02 19:08:24</sys_created_on>
+            <sys_id>6f7cfa9a2f370110e64651172799b666</sys_id>
+            <sys_mod_count>7</sys_mod_count>
+            <sys_name>Availability Days</sys_name>
+            <sys_package display_value="SPORTIFY APP" source="x_828756_sportif_1">ffa9721a2f370110e64651172799b600</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="SPORTIFY APP">ffa9721a2f370110e64651172799b600</sys_scope>
+            <sys_update_name>sys_documentation_x_828756_sportif_1_facilities_database_availability_days_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-06-02 19:12:07</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

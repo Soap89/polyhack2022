@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_master_item">
+    <sys_sg_master_item action="INSERT_OR_UPDATE">
+        <condition_order/>
+        <datasource_table>x_828756_sportif_1_facilities_database</datasource_table>
+        <datasource_table_condition/>
+        <embedded_screen display_value="Check all facilities Form Screen">26a843d62f770110e64651172799b6c3</embedded_screen>
+        <item_view/>
+        <name>Check all facilities Form Screen Master Item</name>
+        <sys_class_name>sys_sg_master_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-02 20:01:34</sys_created_on>
+        <sys_id>aaa843d62f770110e64651172799b6c8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Check all facilities Form Screen Master Item</sys_name>
+        <sys_package display_value="SPORTIFY APP" source="x_828756_sportif_1">ffa9721a2f370110e64651172799b600</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SPORTIFY APP">ffa9721a2f370110e64651172799b600</sys_scope>
+        <sys_update_name>sys_sg_master_item_aaa843d62f770110e64651172799b6c8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-02 20:01:34</sys_updated_on>
+        <use_view_config>true</use_view_config>
+        <view_config display_value="Check all facilities List Screen View Config">16a843d62f770110e64651172799b615</view_config>
+    </sys_sg_master_item>
+</record_update>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_navigation_section_m2m_destination">
+    <sys_sg_navigation_section_m2m_destination action="DELETE">
+        <navigation_section display_value="Unlock Facility">e7ccf56a2fff0110e64651172799b6c9</navigation_section>
+        <navigation_section_destination display_value="Lock the facility">96cdf96a2fff0110e64651172799b619</navigation_section_destination>
+        <order/>
+        <sys_class_name>sys_sg_navigation_section_m2m_destination</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-03 09:12:54</sys_created_on>
+        <sys_id>96cdf9aa2fff0110e64651172799b63d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="SPORTIFY APP" source="x_828756_sportif_1">ffa9721a2f370110e64651172799b600</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SPORTIFY APP">ffa9721a2f370110e64651172799b600</sys_scope>
+        <sys_update_name>sys_sg_navigation_section_m2m_destination_96cdf9aa2fff0110e64651172799b63d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-03 09:12:54</sys_updated_on>
+    </sys_sg_navigation_section_m2m_destination>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="SPORTIFY APP">ffa9721a2f370110e64651172799b600</application>
+        <file_path/>
+        <instance_id>12ab3d49db247740387021c40596193c</instance_id>
+        <instance_name>dev78035</instance_name>
+        <name>sys_sg_navigation_section_m2m_destination_96cdf9aa2fff0110e64651172799b63d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_navigation_section_m2m_destination"><sys_sg_navigation_section_m2m_destination action="INSERT_OR_UPDATE"><navigation_section display_value="Unlock Facility">e7ccf56a2fff0110e64651172799b6c9</navigation_section><navigation_section_destination display_value="Lock the facility">96cdf96a2fff0110e64651172799b619</navigation_section_destination><order/><sys_class_name>sys_sg_navigation_section_m2m_destination</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-06-03 09:12:54</sys_created_on><sys_id>96cdf9aa2fff0110e64651172799b63d</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="SPORTIFY APP" source="x_828756_sportif_1">ffa9721a2f370110e64651172799b600</sys_package><sys_policy/><sys_scope display_value="SPORTIFY APP">ffa9721a2f370110e64651172799b600</sys_scope><sys_update_name>sys_sg_navigation_section_m2m_destination_96cdf9aa2fff0110e64651172799b63d</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-06-03 09:12:54</sys_updated_on></sys_sg_navigation_section_m2m_destination></record_update>]]></payload>
+        <payload_hash>499307881</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>f7a9721a2f370110e64651172799b602</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-03 09:12:54</sys_created_on>
+        <sys_id>d2cdf9aa2fff0110e64651172799b63f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18128d6cc7f0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-03 09:12:54</sys_updated_on>
+        <type>Icon section destinations</type>
+        <update_guid>1ecdf9aa3cff0110c21c066d3231663e</update_guid>
+        <update_guid_history>1ecdf9aa3cff0110c21c066d3231663e:499307881</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-03 09:14:03</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_navigation_section_m2m_destination">sys_sg_navigation_section_m2m_destination</sys_db_object>
+        <sys_id>02d4cc8a520743018111f59d3115b109</sys_id>
+        <sys_metadata>96cdf9aa2fff0110e64651172799b63d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="SPORTIFY APP" source="x_828756_sportif_1">ffa9721a2f370110e64651172799b600</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="SPORTIFY APP">ffa9721a2f370110e64651172799b600</sys_scope>
+        <sys_scope_delete display_value="">59f5691434e544bcb16172d5e9b32d09</sys_scope_delete>
+        <sys_update_name>sys_sg_navigation_section_m2m_destination_96cdf9aa2fff0110e64651172799b63d</sys_update_name>
+        <sys_update_version display_value="sys_sg_navigation_section_m2m_destination_96cdf9aa2fff0110e64651172799b63d">d2cdf9aa2fff0110e64651172799b63f</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-03 09:14:03</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
